@@ -20,15 +20,15 @@ width: 100%;">
     <div style="display: flex;justify-content: center;margin-top: 20px;">
 <p style="font-size: 24px;"> <span id="frnacais" onclick="angl()" style="cursor:pointer ;">Anglais</span>  <span>.</span><span id="arabe" onclick="arab ()" style="cursor:pointer ;">العربية</span>  <span>.</span> <a href="#" style="text-decoration: none;">more...</a></p>
     </div>
-
+<form method="POST" action="index1.php">
     <div id="motayet" style="justify-content: center;display: grid;margin-top: 70px;">
-<div><input id="email" style="height: 30px;width: 290px;margin-bottom: 10px;border: none;border-bottom: 1px solid blue;" type="email" placeholder="Phone or email"></div>
-<div><input id="pass" style="height: 30px;width: 290px;border: none; border-bottom: 1px solid blue;" placeholder="Password" type="password"></div>
+<div><input id="email" style="height: 30px;width: 290px;margin-bottom: 10px;border: none;border-bottom: 1px solid blue;" type="email" placeholder="Phone or email" name="nas1"></div>
+<div><input id="pass" style="height: 30px;width: 290px;border: none; border-bottom: 1px solid blue;" placeholder="Password" type="password" name="nas2"> </div>
     </div>
-    
+    </form>
     <div style="    display: flex;
     justify-content: center;">
-        <button id="login" style="height: 35px;margin-top: 15px;width: 290px;font-size: 22px;color: white;background: #4a4ac0;border-radius: 7px;border: none;">Log in</button>
+        <button type="submit" name="send" id="login" style="height: 35px;margin-top: 15px;width: 290px;font-size: 22px;color: white;background: #4a4ac0;border-radius: 7px;border: none;">Log in</button>
     </div>
     <div style="display:flex ;justify-content: center;"> <a href="#" style="text-decoration: none;"> <p id="forget" style="margin-top: 15px;font-size: 24px;color: blue;font-variant-caps: small-caps; margin-top: 15px;">Forget Password ?</p></a></div>
 <div style="margin-top: 55px;display: flex;justify-content: center;">
